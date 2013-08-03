@@ -6,7 +6,8 @@
          point="org.eclipse.ui.popupMenus">
       <objectContribution
             objectClass="org.eclipse.core.resources.IFile"
-            id="property-file-sorter-plugin.contribution1">
+            id="property-file-sorter-plugin.contribution1"
+            nameFilter="*.properties">
          <menu
                label="Property file sorter"
                path="additions"
