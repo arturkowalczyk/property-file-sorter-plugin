@@ -9,7 +9,7 @@
             id="property-file-sorter-plugin.contribution1"
             nameFilter="*.properties">
          <menu
-               label="Property file sorter"
+               label="Property File Sorter"
                path="additions"
                id="property-file-sorter-plugin.menu1">
             <separator
@@ -17,7 +17,7 @@
             </separator>
          </menu>
          <action
-               label="Sort in groups"
+               label="Sort In Groups"
                class="propertyfilesorterplugin.popup.actions.SortInGroups"
                menubarPath="property-file-sorter-plugin.menu1/group1"
                enablesFor="1"
