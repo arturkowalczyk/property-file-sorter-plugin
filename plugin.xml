@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            objectClass="org.eclipse.core.resources.IFile"
+            id="property-file-sorter-plugin.contribution1">
+         <menu
+               label="Property file sorter"
+               path="additions"
+               id="property-file-sorter-plugin.menu1">
+            <separator
+                  name="group1">
+            </separator>
+         </menu>
+         <action
+               label="Sort in groups"
+               class="propertyfilesorterplugin.popup.actions.SortInGroups"
+               menubarPath="property-file-sorter-plugin.menu1/group1"
+               enablesFor="1"
+               id="property-file-sorter-plugin.newAction">
+         </action>
+      </objectContribution>
+   </extension>
+
+</plugin>
