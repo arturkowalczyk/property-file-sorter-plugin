@@ -2,12 +2,12 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Property file sorter plugin
 Bundle-SymbolicName: property-file-sorter-plugin; singleton:=true
-Bundle-Version: 1.0.0
+Bundle-Version: 1.0.1
 Bundle-Activator: property_file_sorter_plugin.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  org.eclipse.core.resources
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
-Bundle-ClassPath: lib/property-file-sorter-1.0.0-SNAPSHOT.jar,
- .
+Bundle-ClassPath: .,
+ lib/property-file-sorter-1.0.1-SNAPSHOT.jar
